@@ -14,7 +14,6 @@ struct ArrayRawView: View {
     var body: some View {
         VStack {
             TextEditor(text: .constant(self.arrayText))
-                .foregroundColor(Color.white)
                 .font(.custom("SF Mono", size: 13))
                 .lineSpacing(5.0)
         }.frame(minWidth: 500, minHeight: 400)
